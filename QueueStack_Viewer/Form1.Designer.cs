@@ -472,6 +472,7 @@
             this.btnDataOut.TabIndex = 19;
             this.btnDataOut.Text = "Out";
             this.btnDataOut.UseVisualStyleBackColor = true;
+            this.btnDataOut.Click += new System.EventHandler(this.btnDataOut_Click);
             // 
             // btnDataAutoOut
             // 
@@ -481,6 +482,7 @@
             this.btnDataAutoOut.TabIndex = 20;
             this.btnDataAutoOut.Text = "Auto Out";
             this.btnDataAutoOut.UseVisualStyleBackColor = true;
+            this.btnDataAutoOut.Click += new System.EventHandler(this.btnDataAutoOut_Click);
             // 
             // Form1
             // 
